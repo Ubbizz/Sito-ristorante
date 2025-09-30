@@ -3,6 +3,9 @@ body, html{
     padding: 0px;
 }
 
+.beige{
+  background-color: bisque;
+}
 
 .roboto-flex-100 {
   font-family: "Roboto Flex", sans-serif;
