@@ -1,3 +1,8 @@
+*{
+  border: solid rgb(0, 0, 0) 0px;
+  box-sizing: border-box;
+}
+
 body, html{
     margin: 0px;
     padding: 0px;
@@ -52,19 +57,46 @@ body, html{
   font-style: normal;
 }
 
-h1{
+.fotopizza{
     background-color: rgb(236, 215, 189);
     width: 100%;
     min-width: 50px;
-    height: 100px;
+    height: 300px;
     overflow:hidden;
-    margin: 0px 20px 200px 0px;
+    margin: 0px 20px 50px 0px;
     padding: 100px 20px 20px 30px;
     background-image:url(./assets/Pizza-Home.jpg);
     background-size: cover;
     background-position: center center;
 }
 
+.descrizione{
+  flex-grow: 1;
+}
+
 .centrato{
     text-align: center;
+}
+
+.dovesiamo{
+  flex-grow: 1;
+  width: 200px;
+  flex-direction: row;
+}
+
+.menu{
+  flex-grow: 1;
+  width: 200px;
+  flex-direction: row;
+}
+
+.galleria{
+  flex-grow: 1;
+  width: 200px;
+  flex-direction: row;
+}
+
+.divider{
+  height: 3px;
+  background-color: black;
 }
