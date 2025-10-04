@@ -100,3 +100,8 @@ body, html{
   height: 3px;
   background-color: black;
 }
+
+.fotopizze{
+  display: flex;
+  flex-wrap: wrap;
+}
